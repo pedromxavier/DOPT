@@ -3,7 +3,7 @@ using DOPT
 function run()
     # For TTT-Plots
     t = @timed begin
-        let num_samples = 30, codes = 3, sizes = 80
+        let num_samples = 30, codes = 3, sizes = 100
 
             job = DOPT.run(
                 DOPT.ILS();
